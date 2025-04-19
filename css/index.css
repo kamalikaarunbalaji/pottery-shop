@@ -1,0 +1,379 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu-container{
+    /* border:3px solid green;  */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:6vh; 
+    animation:menu-content;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-delay:1s;
+}
+
+.main-container{
+    font-family: "Merienda", cursive;
+}
+.main-img{
+    /* border: 3px solid blue; */
+    width: 80%;
+    height:auto;
+}
+.main-img img{
+   width:100%;
+   height:100%;
+}
+
+.menu-box i{
+    display: none;
+}
+
+.menu-items a{
+    padding: 10px;
+    font-family: "Eagle Lake", serif;
+}
+
+@keyframes menu-content{
+    0% {
+        transform: translatey(-800px);
+        opacity: 0; 
+       
+    }
+    25% {
+        transform: translatey(-500px); 
+    }
+    50% {
+        transform: translatey(-200px);
+        opacity: 0.5;  
+    } 
+     100% {
+        transform: translatey(0px); 
+        opacity: 1;
+    }
+}
+
+.pottery-name h1{
+    font-family: "Rubik Doodle Shadow", system-ui;
+}
+.different-font{
+    font-size:48px;
+    color:red;
+}
+
+.main-container{
+    background-image:url('/images/front-background.jpg') ; 
+    background-repeat:no-repeat;
+    align-items: center;
+    display: flex; 
+    padding-top:3%;
+    background-size:cover;
+}
+
+.main-content{
+    text-align: center;
+    padding:15vh;
+    line-height:1cm;
+    font-family: "Merienda", cursive;
+    animation:main-content;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-delay:1s;
+}
+
+ @keyframes main-content{
+    0% {
+        transform: translatex(-800px);
+        opacity: 0; 
+       
+    }
+    25% {
+        transform: translatex(-800px); 
+    }
+    50% {
+        transform: translatex(-800px);
+        opacity: 0.5;  
+    } 
+     100% {
+        transform: translatex(0px); 
+        opacity: 1;
+    }
+}
+
+button {
+    animation:button;
+    animation-delay:2s;
+    animation-duration:5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    background-color:red;
+    color:whitesmoke;
+}
+
+@keyframes button{
+    0%{
+        transform: scale(0.2,0.2);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
+
+.product-categories-container{
+    /* border:3px solid green; */
+    padding: 30px;
+    background-image: linear-gradient(to right, #00bcd461, #7e57c263);
+}
+.title{
+    text-align: center;
+    line-height:1.5cm;
+    padding: 30px;
+    font-family: "Cinzel", serif;
+}
+
+.circle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circle-icon img{
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    animation:main-content;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-delay:4s;
+}
+.circle-icon{
+    border: 30px solid rgba(0, 0, 0, .05);
+    background-color: #e4b366;
+    width: 125px;
+    height: 138px;
+    border-radius: 200px;
+    position: relative;
+    font-family: "Cinzel", serif;
+}
+
+.circle-icon h3{
+    position: absolute;
+    left: 9px;
+    top: 120px;
+   
+}
+
+.bg-color{
+    background-color: #f05b10;
+}
+
+.bg-colors{
+    background-color: #a21010;
+}
+
+.left-content{
+    display: flex;
+    justify-content:space-around; 
+    align-items:center;  
+}
+
+.sub-title{
+    width:35%;
+    padding-top:65px;
+    font-family: "Charm", cursive;
+    font-size: 20px;
+}
+
+.para{
+    margin-top: 10px;
+}
+
+.sales-section-container{
+    /* border:3px solid green; */
+    background-image: linear-gradient(to right,rgb(165 42 42 / 53%), rgb(255 165 0 / 25%));
+    padding-top: 30px;
+}
+
+.sales-section{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.sales-section img{
+    width:15%;
+    height:auto;
+    animation:button;
+    animation-delay:2s;
+    animation-duration:5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:2;
+}
+.sales-content{
+    width:30%;
+    font-family: "Merienda", cursive;
+    font-size: 20px;
+}
+
+.pot{
+    width:15%;
+    height: auto;
+}
+
+.pottery-collection-container{
+    /* border: 3px solid green; */
+    background-image:linear-gradient(to right, #8000808a, #ffff0040);
+}
+
+.collections{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center; 
+    padding:35px; 
+}
+.image-section{
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+.image-section img{
+  width:100%;
+  height: auto;
+  padding-right:55px;
+  animation:button;
+  animation-delay:3s;
+  animation-duration:4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:1;
+  
+}
+.button-section{
+    padding:30px;
+    text-align: center;
+    background-color: #e4b366;
+    animation:button;
+    animation-delay:2s;
+    animation-duration:5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    color:whitesmoke; 
+}
+.line{
+    width:75%;
+    margin:20px 20px;  
+}
+hr:hover{
+    color:azure;
+}
+
+.background{
+    background-image:url('/images/big-bg.jpeg');
+    background-color: rgb(216, 194, 236);
+    background-position: 0 0, 50% 33%;
+    background-repeat: no-repeat;
+    background-size:auto;
+    padding:70px;
+    font-family: "Merienda", cursive;
+    line-height: 1cm;
+}
+button{
+    padding:10px;
+    margin-top:10px;
+    font-family: "Eagle Lake", serif;
+    animation:button;
+    animation-delay:2s;
+    animation-duration:5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    color:whitesmoke;
+}
+
+.footer-container{
+    background-color: rgb(248, 218, 205);
+    text-align: center;
+    background-image:linear-gradient(to right, #ff00004f, #8000808a);
+}
+
+.footer-content{
+    display: flex;
+    justify-content:space-evenly;
+    padding:30px;
+
+   
+}
+.title{
+    text-align: center;
+    line-height:1.5cm;
+    padding: 30px;
+    font-family: "Cinzel", serif;
+}
+
+.foot img{
+    animation:button;
+    animation-delay:2s;
+    animation-duration:4s;
+    animation-timing-function: ease-in-out;
+}
+h1:hover{
+    color:rgb(33, 20, 175);
+}
+
+@media only screen and (min-width:426px) and (max-width:768px){
+    
+    .main-img img{
+        display: none;
+    }
+ 
+    .hide{
+        display: none;
+    }
+
+    .menu-box{
+        position: relative;
+        text-align: center;
+    }
+
+    .menu-box i{
+        display: block;
+        position: absolute;
+        left:280%;
+        top:4px;
+        font-size: 36px;
+    }
+    
+    .menu-items a {
+        display: block;
+        padding: 5px;
+    }
+
+    .sales-content{
+        width:50%;
+    }
+    .left-content{
+        display: grid;
+        width:60%;
+    }
+   .sub-title{
+       width:150%;
+    }
+    .collections{
+        display: block;
+        margin-left: 40px;
+    }
+    .footer-content{
+        display: grid;
+        padding:30px;
+       
+      }
+}
+
+
+
