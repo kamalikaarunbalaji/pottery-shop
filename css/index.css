@@ -353,10 +353,9 @@ h1:hover {
     }
 
     .menu-container {
-        padding: 20px;
         flex-direction: column;
         align-items: flex-start;
-        position: relative;
+        padding: 15px;
     }
 
     .menu-box {
@@ -367,14 +366,10 @@ h1:hover {
     .menu-box i {
         display: block;
         position: absolute;
-        right: 20px;
-        top: 20px;
-        font-size: 30px;
+        right: 10px;
+        top: 10px;
+        font-size: 25px;
         cursor: pointer;
-    }
-
-    .hide {
-        display: none;
     }
 
     .menu1 {
@@ -384,22 +379,23 @@ h1:hover {
 
     .menu-items a {
         display: block;
-        padding: 10px 20px;
-        text-align: left;
-        font-size: 18px;
-        font-family: "Eagle Lake", serif;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .hide {
+        display: none;
     }
 
     .main-container {
         flex-direction: column;
         text-align: center;
-        padding: 30px 10px;
+        padding: 20px;
     }
 
     .main-content {
         padding: 0;
-        line-height: 1.6em;
     }
 
     .main-content h3 {
@@ -412,38 +408,40 @@ h1:hover {
 
     button {
         font-size: 16px;
-        padding: 8px 16px;
+        padding: 8px 15px;
     }
 
     .circle {
         flex-direction: column;
-        gap: 25px;
-    }
-
-    .circle-icon {
-        width: 100px;
-        height: 110px;
-    }
-
-    .circle-icon h3 {
-        top: 95px;
-        left: 10px;
-        font-size: 14px;
+        gap: 20px;
     }
 
     .left-content {
         flex-direction: column;
-        padding: 20px;
         text-align: center;
+        padding: 20px;
     }
 
     .sub-title {
         width: 100%;
-        font-size: 18px;
-        padding-top: 20px;
+        font-size: 16px;
     }
 
     .sales-section {
         flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .collections {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
     }
 }

@@ -327,8 +327,8 @@ h1:hover {
 
     .menu-items a {
         display: block;
-        padding: 12px 20px;
-        text-align: left;
+        padding: 20px;
+        text-align: center;
         font-size: 16px;
     }
 
@@ -344,6 +344,10 @@ h1:hover {
     .circle {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .circle-icon h3{
+        margin-bottom: 15px;
     }
 
     .left-content {
