@@ -1,196 +1,241 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
 }
 
-.menu-container{
+.menu-container {
     /* border:3px solid green;  */
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:6vh;
-    animation:menu-content;
-    animation-duration:3s;
+    padding: 6vh;
+    animation: menu-content;
+    animation-duration: 3s;
     animation-iteration-count: 1;
-    animation-delay:1s;
+    animation-delay: 1s;
 }
 
-.menu-box i{
+.menu-box i {
     display: none;
 }
 
-.menu-items a{
+.menu-items a {
     padding: 10px;
     font-family: "Eagle Lake", serif;
 }
 
-@keyframes menu-content{
+@keyframes menu-content {
     0% {
         transform: translatey(-800px);
-        opacity: 0; 
-       
+        opacity: 0;
+
     }
+
     25% {
-        transform: translatey(-500px); 
+        transform: translatey(-500px);
     }
+
     50% {
         transform: translatey(-200px);
-        opacity: 0.5;  
-    } 
-     100% {
-        transform: translatey(0px); 
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translatey(0px);
         opacity: 1;
     }
 }
-    
 
-.pottery-name h1{
+
+.pottery-name h1 {
     font-family: "Rubik Doodle Shadow", system-ui;
 }
 
-.space{
-    margin-top:10px;
+.space {
+    margin-top: 10px;
 }
 
-.shop-container{
+.shop-container {
     background-image: url('/images/shop-bg.jpg');
     background-color: rgb(216, 194, 236);
     background-repeat: no-repeat;
-    background-size: auto,cover;
-    height:auto;
+    background-size: auto, cover;
+    height: auto;
     font-family: "Eagle Lake", serif;
 }
 
-.shop{
-    padding-top:140px;
-    padding-bottom:130px;
-    width:95%;
+.shop {
+    padding-top: 140px;
+    padding-bottom: 130px;
+    width: 95%;
     text-align: center;
     color: rgb(0 0 0);
     background-color: rgb(219 219 219 / 16%);
-    animation:main-content;
-    animation-duration:2s;
+    animation: main-content;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-delay:1s;
+    animation-delay: 1s;
 }
 
- @keyframes main-content{
+@keyframes main-content {
     0% {
         transform: translatex(-800px);
-        opacity: 0; 
+        opacity: 0;
     }
+
     25% {
-        transform: translatex(-800px); 
+        transform: translatex(-800px);
     }
+
     50% {
         transform: translatex(-800px);
-        opacity: 0.5;  
-    } 
-     100% {
-        transform: translatex(0px); 
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translatex(0px);
         opacity: 1;
     }
 }
 
-.title{
+.title {
     text-align: center;
-    line-height:1.5cm;
+    line-height: 1.5cm;
     padding: 30px;
     font-family: "Cinzel", serif;
 }
 
-.pottery-collection-container{
+.pottery-collection-container {
     /* border: 3px solid green; */
-    background-image:linear-gradient(to right, #8000808a, #ffff0040);
+    background-image: linear-gradient(to right, #8000808a, #ffff0040);
 }
 
-.collections{
-    display:grid;
+.collections {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center; 
-    padding:35px;
+    place-items: center;
+    padding: 35px;
 }
 
-.image-section{
+.image-section {
     text-align: center;
     font-family: "Cinzel", serif;
 }
 
-.image-section img{
-  width:100%;
-  height: auto;
-  padding-right:55px;
-  animation:button;
-  animation-delay:2s;
-  animation-duration:4s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count:1;
+.image-section img {
+    width: 100%;
+    height: auto;
+    padding-right: 55px;
+    animation: button;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
 }
 
-@keyframes button{
-    0%{
-        transform: scale(0.2,0.2);
+@keyframes button {
+    0% {
+        transform: scale(0.2, 0.2);
         opacity: 0;
     }
-    100%{
-        transform: scale(1,1);
+
+    100% {
+        transform: scale(1, 1);
         opacity: 1;
     }
 }
 
-.button-section{
+.button-section {
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
-.line{
-    width:75%;
-    margin:20px 20px;
+.line {
+    width: 75%;
+    margin: 20px 20px;
 }
 
-.background{
-    background-image:url('images/big-bg.jpeg');
+.background {
+    background-image: url('images/big-bg.jpeg');
     background-position: 0 0, 50% 33%;
     background-repeat: repeat, no-repeat;
-    background-size:auto;
-    padding:200px;
+    background-size: auto;
+    padding: 200px;
     font-family: "Merienda", cursive;
     line-height: 1cm;
 }
 
-h1:hover{
-    color:rgb(33, 20, 175);
+h1:hover {
+    color: rgb(33, 20, 175);
 }
 
-@media only screen and (min-width:426px) and (max-width:768px){
+@media (max-width: 426px) {
 
-.hide{
-    display: none;
-}
+    .menu-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        position: relative;
+    }
 
-.menu-box{
-    position: relative;
-    text-align: center;
-}
+    .menu-box i {
+        display: block;
+        font-size: 28px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
 
-.menu-box i{
-    display: block;
-    position: absolute;
-    left:280%;
-    top:4px;
-    font-size: 36px;
-}
+    .hide {
+        display: none;
+    }
 
-.menu-items a {
-    display: block;
-    padding: 5px;
-}
+    .menu1 {
+        width: 100%;
+        background: #fff;
+        border-top: 1px solid #ddd;
+    }
 
-.collections{
-    display: block;
-    margin-left: 40px;
-}
+    .menu-items a {
+        display: block;
+        padding: 12px 20px;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .shop {
+        padding: 60px 20px;
+        font-size: 16px;
+    }
+
+    .shop h1 {
+        font-size: 24px;
+    }
+
+    .shop p {
+        font-size: 14px;
+    }
+
+    .collections {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .image-section img {
+        width: 80%;
+        height: auto;
+        padding: 0;
+    }
+
+    .image-section h2,
+    .image-section h3 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
 }
