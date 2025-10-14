@@ -362,11 +362,14 @@ h1:hover {
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        position: relative;
     }
 
     .fa-bars {
-        font-size: 26px;
+        display: block;
+        font-size: 28px;
         cursor: pointer;
+        z-index: 10;
     }
 
     .menu1 {
@@ -431,7 +434,6 @@ h1:hover {
 
     .circle-icon h3 {
         font-size: 14px;
-        margin: 0;
         text-align: center;
     }
 
@@ -473,6 +475,7 @@ h1:hover {
         grid-template-columns: 1fr;
         gap: 15px;
         padding: 10px;
+        text-align: center;
     }
 
     .image-section img {
