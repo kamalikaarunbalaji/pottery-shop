@@ -365,7 +365,7 @@ h1:hover {
         position: relative;
     }
 
-    .fa-bars {
+    .menu-box i {
         display: block;
         font-size: 28px;
         cursor: pointer;
