@@ -368,22 +368,22 @@ h1:hover {
     .menu-box i {
         display: block;
         font-size: 28px;
-        cursor: pointer;
-        z-index: 10;
+        position: absolute;
+        right: 20px;
+        top: 20px;
     }
 
     .menu1 {
-        display: none;
         width: 100%;
-        background-color: #fff;
-        border-radius: 5px;
+        background: #fff;
+        border-top: 1px solid #ddd;
     }
 
     .menu-items a {
         display: block;
-        padding: 12px;
+        padding: 20px;
         text-align: center;
-        border-bottom: 1px solid #ddd;
+        font-size: 16px;
     }
 
     .main-container {
