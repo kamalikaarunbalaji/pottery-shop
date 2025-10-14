@@ -354,7 +354,9 @@ h1:hover {
 
     .menu-container {
         flex-direction: column;
-        padding: 12px;
+        align-items: flex-start;
+        padding: 20px;
+        position: relative;
     }
 
     .menu-box {
@@ -373,8 +375,13 @@ h1:hover {
         top: 20px;
     }
 
+    .hide {
+        display: none;
+    }
+
     .menu1 {
         width: 100%;
+        text-align: center;
         background: #fff;
         border-top: 1px solid #ddd;
     }
@@ -433,8 +440,7 @@ h1:hover {
     }
 
     .circle-icon h3 {
-        font-size: 14px;
-        text-align: center;
+       margin-bottom: 15px;
     }
 
     .left-content {
@@ -481,6 +487,7 @@ h1:hover {
     .image-section img {
         width: 70%;
         margin: 0 auto 10px;
+        text-align: center;
     }
 
     .footer-content {
