@@ -356,7 +356,6 @@ h1:hover {
         flex-direction: column;
         align-items: flex-start;
         padding: 20px;
-        position: relative;
     }
 
     .menu-box {
@@ -364,34 +363,40 @@ h1:hover {
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        position: relative;
     }
 
-    .menu-box i {
+    #menu-btn {
         display: block;
         font-size: 28px;
-        position: absolute;
-        right: 20px;
-        top: 20px;
+        color: #000;
+        cursor: pointer;
     }
 
-    .hide {
-        display: none;
+    .menu1.show {
+        display: block;
     }
 
     .menu1 {
+        display: none;
         width: 100%;
         text-align: center;
-        background: #fff;
+        background-color: #fff;
         border-top: 1px solid #ddd;
     }
 
     .menu-items a {
         display: block;
-        padding: 20px;
-        text-align: center;
+        padding: 15px;
         font-size: 16px;
+        color: #333;
+        text-decoration: none;
+        border-bottom: 1px solid #eee;
     }
+
+    .menu-items a:hover {
+        background-color: #f4f4f4;
+    }
+
 
     .main-container {
         flex-direction: column;
@@ -440,7 +445,7 @@ h1:hover {
     }
 
     .circle-icon h3 {
-       margin-bottom: 15px;
+        margin-bottom: 15px;
     }
 
     .left-content {
