@@ -359,25 +359,17 @@ h1:hover {
         position: relative;
     }
 
-    .menu-box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-
     .menu-box i {
         display: block;
         font-size: 28px;
         position: absolute;
         right: 20px;
         top: 20px;
-        cursor: pointer;
     }
 
-    .menu1.show {
-        display: block;
-    
+    .hide {
+        display: none;
+    }
 
     .menu1 {
         width: 100%;
@@ -385,128 +377,121 @@ h1:hover {
         border-top: 1px solid #ddd;
     }
 
-    .menu-items {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     .menu-items a {
         display: block;
-        padding: 18px;
+        padding: 20px;
         text-align: center;
         font-size: 16px;
-        color: #000;
     }
-}
 
-.main-container {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 10px;
-}
+    .main-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
 
-.main-content h3 {
-    font-size: 20px;
-    margin: 5px 0;
-}
+    .main-content h3 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
 
-.main-content h4 {
-    font-size: 15px;
-    margin: 5px 0;
-}
+    .main-content h4 {
+        font-size: 15px;
+        margin: 5px 0;
+    }
 
-button {
-    font-size: 15px;
-    padding: 10px 16px;
-    margin-top: 10px;
-}
+    button {
+        font-size: 15px;
+        padding: 10px 16px;
+        margin-top: 10px;
+    }
 
-.circle {
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-}
+    .circle {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
 
-.circle-icon {
-    width: 110px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 999px;
-    border: 20px solid rgba(0, 0, 0, 0.05);
-    background-color: #e4b366;
-}
+    .circle-icon {
+        width: 110px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        border: 20px solid rgba(0, 0, 0, 0.05);
+        background-color: #e4b366;
+    }
 
-.circle-icon img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 5px;
-}
+    .circle-icon img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+    }
 
-.circle-icon h3 {
-    margin-bottom: 15px;
-}
+    .circle-icon h3 {
+        margin-bottom: 15px;
+    }
 
-.left-content {
-    flex-direction: column;
-    text-align: center;
-    padding: 15px 10px;
-    gap: 15px;
-}
+    .left-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 10px;
+        gap: 15px;
+    }
 
-.sub-title {
-    width: 100%;
-    padding-top: 0;
-}
+    .sub-title {
+        width: 100%;
+        padding-top: 0;
+    }
 
-.sub-title h1 {
-    font-size: 18px;
-    margin-bottom: 8px;
-}
+    .sub-title h1 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
 
-.para {
-    font-size: 14px;
-    color: #444;
-}
+    .para {
+        font-size: 14px;
+        color: #444;
+    }
 
-.sales-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 15px;
-    padding: 10px;
-}
+    .sales-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 10px;
+    }
 
-.sales-section img {
-    width: 60%;
-}
+    .sales-section img {
+        width: 60%;
+    }
 
-.collections {
-    grid-template-columns: 1fr;
-    gap: 15px;
-    padding: 10px;
-    text-align: center;
-}
+    .collections {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+        text-align: center;
+    }
 
-.image-section img {
-    width: 70%;
-    margin: 0 auto 10px;
-    text-align: center;
-}
+    .image-section img {
+        width: 70%;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
 
-.footer-content {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
-    padding: 15px 10px;
-}
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 15px 10px;
+    }
 
-.foot img {
-    width: 40px;
-    margin: 0 auto 5px;
-}
+    .foot img {
+        width: 40px;
+        margin: 0 auto 5px;
+    }
 
 }
