@@ -346,6 +346,7 @@ h1:hover {
     color: rgb(33, 20, 175);
 }
 
+
 @media only screen and (max-width: 426px) {
 
     .main-img {
@@ -365,6 +366,7 @@ h1:hover {
         position: absolute;
         right: 20px;
         top: 20px;
+        cursor: pointer;
     }
 
     .hide {
@@ -377,6 +379,12 @@ h1:hover {
         border-top: 1px solid #ddd;
     }
 
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .menu-items a {
         display: block;
