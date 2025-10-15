@@ -490,19 +490,20 @@ h1:hover {
     .collections {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 15px;
-        padding: 10px;
-        text-align: center;
+        gap: 20px;
+        padding: 20px;
     }
 
     .image-section img {
         width: 80%;
-        margin: 0 auto 10px;
+        height: auto;
+        padding: 0;
     }
 
     .image-section h2,
     .image-section h3 {
         font-size: 16px;
+        margin: 5px 0;
     }
 
     .footer-container {
