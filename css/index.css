@@ -497,6 +497,12 @@ h1:hover {
         box-sizing: border-box;
     }
 
+    .image-section {
+        width: 90%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
     .image-section img {
         width: 100%;
         height: auto;
@@ -509,6 +515,11 @@ h1:hover {
         text-align: center;
         font-size: 16px;
         margin: 5px 0;
+    }
+
+    .line hr {
+        width: 50%;
+        margin: 10px auto;
     }
 
     .footer-container {
